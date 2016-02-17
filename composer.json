@@ -29,10 +29,5 @@
       "psr-0": {
             "aatienza\\SugarWrapper": "src/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "master"
-        }
     }
 }
