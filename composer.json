@@ -1,5 +1,5 @@
 {
-    "name": "asakusuma/sugarcrm-wrapper",
+    "name": "aatienza/sugarcrm-wrapper",
     "description": "SugarCRM REST API Wrapper Class",
     "keywords": ["SugarCRM", "REST", "Wrapper"],
     "homepage": "http://github.com/asakusuma/SugarCRM-REST-API-Wrapper-Class/",
@@ -7,7 +7,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Asa Kusuma"
+            "name": "Asa Kusuma",
+            "name": "Alvaro Atienza"
         }
     ],
     "require": {
@@ -20,7 +21,7 @@
     },
     "autoload": {
 	"psr-0": {
-            "Asakusuma\\SugarWrapper": "src/"
+            "aatienza\\SugarWrapper": "src/"
         }
     },
     "extra": {
