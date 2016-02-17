@@ -2,11 +2,9 @@ SugarCRM REST API Wrapper Class
 ===============================
 by Asa Kusuma
 
-<<<<<<< HEAD
-=======
+
 http://www.asakusuma.com/
 
->>>>>>> cc0a320e14fae8ac3a38581b50d111ccc70fe861
 License: MIT
 
 
@@ -34,11 +32,7 @@ Edit composer.json
 
 	{
 		"require": {
-<<<<<<< HEAD
 			"aatienza/sugarcrm-wrapper": "dev-master"
-=======
-			"asakusuma/sugarcrm-wrapper": "dev-master"
->>>>>>> cc0a320e14fae8ac3a38581b50d111ccc70fe861
 		},
 		"minimum-stability": "dev"
 	}
@@ -49,11 +43,7 @@ Then install with composer
 
 3.Usage Example
 ---------------
-<<<<<<< HEAD
 	$sugar = new \aatienza\SugarWrapper\Rest;
-=======
-	$sugar = new \Asakusuma\SugarWrapper\Rest;
->>>>>>> cc0a320e14fae8ac3a38581b50d111ccc70fe861
 
 	$sugar->setUrl('https://sugarcrm/service/v2/rest.php');
 	$sugar->setUsername('user');
@@ -80,11 +70,7 @@ of SugarCRM.
 >This example outputs the contents of a note's attachment, given the
 >note ID. Assumes $note_id contains the ID of the note you wish to modify.
 
-<<<<<<< HEAD
 	$sugar = new \aatienza\SugarWrapper\Rest;
-=======
-	$sugar = new \Asakusuma\SugarWrapper\Rest;
->>>>>>> cc0a320e14fae8ac3a38581b50d111ccc70fe861
 
 	$sugar->setUrl('https://sugarcrm/service/v2/rest.php');
 	$sugar->setUsername('user');
@@ -119,11 +105,9 @@ of SugarCRM.
 	</form>
 
 ### PHP Code (example.php)
-<<<<<<< HEAD
+
 	$sugar = new \aatienza\SugarWrapper\Rest;
-=======
-	$sugar = new \Asakusuma\SugarWrapper\Rest;
->>>>>>> cc0a320e14fae8ac3a38581b50d111ccc70fe861
+
 
 	$sugar->setUrl('https://sugarcrm/service/v2/rest.php');
 	$sugar->setUsername('user');
@@ -148,20 +132,14 @@ of SugarCRM.
 >
 
 ### PHP Code (example.php)
-<<<<<<< HEAD
 	$sugar = new \aatienza\SugarWrapper\Rest;
-=======
-	$sugar = new \Asakusuma\SugarWrapper\Rest;
->>>>>>> cc0a320e14fae8ac3a38581b50d111ccc70fe861
+
 	$modules = $sugar->get_available_modules();
 >BAM! Now loop through the array that was returned and stored in $modules.  You could use this
 >to display a dropdown in the admin panel that displays all modules a user would want to connect your
 >sugarcrm plugin to.
-<<<<<<< HEAD
 
 
 #### Alvaro's Notes
 
 + Forked this repo by Asa Kusuma to have it point to a stored version of curl since the curl library used previously is no longer supported.
-=======
->>>>>>> cc0a320e14fae8ac3a38581b50d111ccc70fe861
