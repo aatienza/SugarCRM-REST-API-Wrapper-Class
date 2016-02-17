@@ -39,7 +39,11 @@
 <body>
 
 <?php
+<<<<<<< HEAD
 $sugar = new \aatienza\SugarWrapper\Rest;
+=======
+$sugar = new \Asakusuma\SugarWrapper\Rest;
+>>>>>>> cc0a320e14fae8ac3a38581b50d111ccc70fe861
 
 $sugar->setUrl('https://sugarcrm/service/v2/rest.php');
 $sugar->setUsername('user');
