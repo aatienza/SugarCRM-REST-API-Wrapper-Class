@@ -1,8 +1,7 @@
 <?php
 
 namespace aatienza\SugarWrapper;
-
-use \aatienza\Curl;
+namespace aatienza\Curl;
 
 /**
  * SugarCRM REST API Class
@@ -639,17 +638,17 @@ class Rest
 
         return $result;
     }
-    
+
     /**
 	  * Upload file to Sugar Document
-	  * 
+	  *
 	  * @param string $docID the document ID the file should be attached to
-	  * @param string $filename the file name 
+	  * @param string $filename the file name
 	  * @param string $path the full path of the file
 	  * @param string $revision the revision number of the file
 	  * @return array
 	  */
-	 
+
 	 public function set_document_revision($docID, $filename, $path, $revision) {
 		 $call_arguments = array(
 		 	'session' => $this->session,
@@ -660,13 +659,13 @@ class Rest
 			'file' => base64_encode(file_get_contents($path)),
 			),
     	);
-		
-		
+
+
         $result = $this->rest_request(
             'set_document_revision',
             $call_arguments
         );
-		
+
         return $result;
 	 }
 
@@ -789,7 +788,7 @@ class Rest
      /**
      * Retrieves Sugar Bean record based on ID. Essentially returns the result of a
      * SELECT SQL statement, given a base module, any number of related of modules,
-     * and respective fields for each module. 
+     * and respective fields for each module.
      *
      * @param string $id     the SugarCRM id to retreive
      *
